@@ -1,0 +1,43 @@
+{
+    "titulo": "Análise de Desempenho dos Alunos",
+    "estatisticas_gerais": {
+        "count": 150.0,
+        "mean": 6.461333333333334,
+        "std": 2.454957637564676,
+        "min": 0.0,
+        "25%": 4.6,
+        "50%": 6.6,
+        "75%": 8.5,
+        "max": 10.0
+    },
+    "perfil_da_turma": {
+        "categoria": "Heterogêneo",
+        "recomendacoes": "Desempenho variado. Monitore continuamente para identificar padrões e flexibilize as estratégias de ensino para atender a diferentes ritmos."
+    },
+    "graficos": [
+        {
+            "titulo": "Distribuição Geral das Notas",
+            "arquivo": "histograma_notas.png"
+        },
+        {
+            "titulo": "Notas por Turma",
+            "arquivo": "boxplot_turmas.png"
+        },
+        {
+            "titulo": "Acesso à Internet dos Alunos",
+            "arquivo": "acesso_internet.png"
+        },
+        {
+            "titulo": "Distribuição por Gênero",
+            "arquivo": "distribuicao_genero.png"
+        },
+        {
+            "titulo": "Desempenho vs. Acesso à Internet",
+            "arquivo": "densidade_internet.png"
+        },
+        {
+            "titulo": "Desempenho por Gênero",
+            "arquivo": "violino_genero.png"
+        }
+    ]
+}
